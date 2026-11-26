@@ -1,16 +1,108 @@
-# React + Vite
+# 🚀 Dynamic CNAPP Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and interactive Cloud-Native Application Protection Platform (CNAPP) Dashboard built using React.js.
 
-Currently, two official plugins are available:
+The dashboard provides a centralized interface to monitor cloud security, workload alerts, and container registry vulnerabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+[View Live Dashboard](https://cnapp-dashboard-beta.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the Oxlint configuration
+[View Source Code](https://github.com/Jayd-13/cnapp-dashboard)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- Interactive cloud security dashboard
+- CSPM, CWPP, and Registry Scan categories
+- Interactive Pie Charts and Bar Charts
+- Add, edit, and delete widgets
+- Widget Library
+- Search and filter widgets
+- Create and manage categories
+- Dark Mode and Light Mode
+- Compact Mode
+- Local Storage support
+- Import and Export dashboard data using JSON
+- Responsive user interface
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Recharts
+- Vite
+- Git and GitHub
+- Vercel
+
+## 📊 Dashboard Categories
+
+### 1. CSPM Executive Dashboard
+- Cloud Accounts
+- Cloud Account Risk Assessment
+- Security Posture Score
+
+### 2. CWPP Dashboard
+- Top 5 Namespace Specific Alerts
+- Workload Alerts
+- Runtime Protection
+
+### 3. Registry Scan
+- Image Risk Assessment
+- Image Security Issues
+- Recent Image Scans
+
+## 💻 Installation and Setup
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Jayd-13/cnapp-dashboard.git
+```
+
+### Step 2: Open Project Folder
+
+```bash
+cd cnapp-dashboard
+```
+
+### Step 3: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 4: Start Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+## 🚀 Deployment
+
+The project is deployed using Vercel.
+
+**Live URL:** https://cnapp-dashboard-beta.vercel.app/
+
+## 👨‍💻 Author
+
+**Jay Darji**
+
+- GitHub: https://github.com/Jayd-13
+- Project: https://github.com/Jayd-13/cnapp-dashboard
+- Live Demo: https://cnapp-dashboard-beta.vercel.app/
+
+---
+
+⭐ Thank you for visiting my project!
